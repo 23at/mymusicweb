@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>The Music Website</title>
+	   
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	    
+	</head>
+  
+	<body>
+	    <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">The Music Website</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="songs.html">Songs</a></li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Playlist
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="upbeat.html">Upbeat</a></li>
+                            <li><a href="study.html">Study</a></li>
+                            <li><a href="slow.html">Slow</a></li>
+                        </ul>
+                    </li> 
+                     <li><a href="about.html">About</a></li>
+                    <li><a href=""></a></li>
+                    
+                </ul>
+            </nav>
+           
+   
+  <!-- Background image -->
+	    <div class="container">
+	        <div class="jumbotron">
+	             <div class="mask">
+        
+        <h1 class="mb-3" style="text-align:center;">The Music Website <span class="glyphicon glyphicon-music"></span></h1>
+          <div class="center">
+            <a href="songs.html" style="color:black"> <button type="button" class="btn btn-lg btn-outline-light">Listen</button></a>
+
+          </div>
+        
+         </div>
+	    </div>
+	    </div>
+                
+            <div class="row">
+                <div class="col-sm-10 center "><h1 style="padding:15px; margin-left:25px;">Top 5 Songs 2022</h1></div>
+                <div class="col-sm-12 center">
+                  
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th><h3>Rank</h3> </th>
+                              <th><h3>Song </h3> </th>
+                              <th><h3> Artist</h3> </th>
+    
+                          </tr>
+                      </thead>
+                      <tbody>
+                          
+                          <tr>
+                              <td> <h4> 1</h4></td>
+                              <td><a href="https://www.youtube.com/watch?v=3YgtjHZyCIQ"><img  style="height: 200px;"src="https://cdn.shopify.com/s/files/1/0011/4651/9637/products/AH_DD_1024x1024.png?v=1666386506"></a><h4>Anti-Hero</h4></td>
+                              <td> <h4> Taylor Swift</h4></td>
+                          </tr>
+                          <tr>
+                              <td><h4>2</h4></td>
+                              <td><a href="https://open.spotify.com/track/1bDbXMyjaUIooNwFE9wn0N?si=c4ee8defbc05482e"><img src="https://i1.sndcdn.com/artworks-CQla57R6PT2X-0-t500x500.jpg" style="height:200px;"></a><h4>Rich Flex</h4></td>
+                              <td><h4>Drake, 21 Savage</h4></td>
+                          </tr>
+                          <tr>
+                              <td> <h4>3</h4></td>
+                              <td>
+                              <a href="https://open.spotify.com/album/0gX9tkL5njRax8ymWcXARi"><img style="height:200px;"src="https://s3.amazonaws.com/media.thecrimson.com/photos/2022/09/26/215120_1357841.png"></a><h4>Unholy</h4> </td>
+                              <td><h4>Sam Smith ft.Kim Petras </h4> </td>
+                          
+                          </tr>
+                          <tr>
+                              <td><h4>4</h4></td>
+                              <td><a href="https://www.youtube.com/watch?v=ospQ06jJe-I"><img style="height:200px;"src="data:image/jpeg;base64,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"></a><h4>Lift Me Up</h4></td>
+                              <td><h4>Rihanna</h4></td>
+                          </tr>
+                          <tr>
+                              <td><h4> 5</h4></td>
+                              <td><a href="https://open.spotify.com/track/4uUG5RXrOk84mYEfFvj3cK?si=1726c6c070824f5d"><img src="https://upload.wikimedia.org/wikipedia/en/8/87/David_Guetta_and_Bebe_Rexha_-_I%27m_Good_%28Blue%29.png" style="height:200px;"></a><h4>I'm Good(Blue)</h4></td>
+                              <td><h4> David Guetta, Bebe Rexha</h4></td>
+                          </tr>
+                          
+                          
+                      </tbody>
+                  </table>
+                </div>
+            </div>
+	
+	</body>
+</html>
